@@ -1,11 +1,9 @@
-*{
-  padding: 0;
-  margin: 10px;
-  background-color: gray;
-
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
-.container{
-  display: grid;
-  grid-template-columns: auto auto auto ;
-  gap: 10px;
+body{
+    background-color: antiquewhite;
 }
